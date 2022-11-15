@@ -15,6 +15,7 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@tailwindcss/typography": "^0.5.8",
+		"@types/d3": "^7.4.0",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
 		"autoprefixer": "^10.4.13",
@@ -24,6 +25,7 @@
 		"postcss": "^8.4.19",
 		"prettier": "^2.6.2",
 		"prettier-plugin-svelte": "^2.7.0",
+		"rai": "workspace:*",
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.7.1",
 		"svelte-preprocess": "^4.10.6",
@@ -34,6 +36,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.40.1"
+		"@wagmi/core": "^0.7.3",
+		"d3": "^7.6.1",
+		"daisyui": "^2.40.1",
+		"ethers": "^5.7.2"
 	}
 }

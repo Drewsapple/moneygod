@@ -1,3 +1,11 @@
+<script lang="ts">
+    import {abis}  from "rai";
+    
+    let rpc = import.meta.env.VITE_ETH_RPC;
+
+
+</script>
+
 <div class="prose">
     <h1 class="">Welcome to SvelteKit</h1>
     <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>

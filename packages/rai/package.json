@@ -1,0 +1,19 @@
+{
+  "name": "rai",
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint *.ts*"
+  },
+  "devDependencies": {
+    "configs": "workspace:*",
+    "eslint": "^7.32.0",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2"
+  }
+}
